@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Filmes</title>
+    <script type="module" src="../scripts/login_register/index.js"></script>
+    <script src="../scripts/searchMovies.js" defer type="module"></script>
+    <script src="../scripts/getMovies.js" defer type="module"></script>
+    <script type="module" src="../scripts/model.js" defer></script>
+    <link rel="stylesheet" href="../css/homepage.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./homepage.html"><img src="../img/pandafilms.png" alt=""></a>
+            <button type="submit" class="log-out">Log-out</button>
+        </div>
+        <nav class="nav-bar">
+                <ul>
+                    <a href="homepage.html">Inicio</a>
+                    
+                    
+                </ul>
+            <div class="input_button">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+            <button id="SearchMovie" type="submit" >Procurar</button>
+            </div>
+        </nav>     
+    </header>
+    <main>
+        <!--<button id="searchMovie" type="submit">Search</button>-->
+        <section class="filmes">
+            <div id="container_movie"></div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+
+<!-- http://localhost:5500/src/page/homepage.html -->

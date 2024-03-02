@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/login_resgister.css">
+    <!--stylesheet -->
+    <!-- script -->
+    <script defer type="module" src="./src/scripts/login_register/data.mjs"></script>
+    <script defer type="module" src="./src/scripts/login_register/login.mjs"></script>
+    <!-- script -->
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section class="login_section">
+            <form class="login_conteiner">
+                <h2>LOGIN</h2>
+                <div>
+                    <label class="emaillogin" for="form">Email</label>
+                    <input required class="email_input" type="email" placeholder=" Digite Seu Email...">
+                </div>
+                <div>
+                    <label class="passwordlogin" for="form">Password</label>
+                    <input required class="password_input" type="password" placeholder=" Digite Sua Senha...">
+                </div>
+                <button type="button" class="enter_login">ENTRAR</button>
+                <p>Não tem uma conta? <a class="registerpage" href="./src/page/register.html">REGisTRE-SE</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body{
+background-color: #0B1426;
+}
+
+header {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #003449;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0B1426;
+  min-height: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.nav-bar {
+  padding: 1.2em 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #03658C;
+  width: 100%;
+}
+
+.nav-bar ul {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.nav-bar ul > a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar input::placeholder{
+  color: white;
+
+}
+
+header div.logo{
+  display: flex;
+  padding: 0em 3em;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+header div.logo > button {
+  padding: 0.6em 3em;
+  color: white;
+  background-color: #0B1426;
+  border: none;
+  border-radius: 8px;
+}
+header div.logo> a{
+  width: 180px;
+}
+.nav-bar input {
+  display: flex;
+  color: white;
+  padding: 0.3em 0em;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: solid #0B1426 2px;
+}
+
+.nav-bar > div.input_button{
+  display: flex;
+  gap: 2em;
+}
+
+div.input_button > button {
+  cursor: pointer;
+  padding: 0.6em 3em;
+  color: white;
+  background-color: #0B1426;
+  border: none;
+  border-radius: 8px;
+}
+
+div#container_movie {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+div#container_movie > img.Movie_poster{
+  border-radius: 15px;
+}
+div#container_movie>img {
+  width: 200px;
+}
+
+div.movie_container > p {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+div.movie_container {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 180px;
+  height: 250px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+ 
+  
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.log-out {
+ 
+ 
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 10px; 
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a {
+  
+  text-decoration: none;
+  padding: 10px;
+}
+
+.input_button {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 10px; 
+}
+
+#txtBusca {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px; /* Margin for better spacing */
+}
+
+#SearchMovie {
+  
+  
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 600px) {
+  .nav-bar {
+      flex-direction: row; /* Restore original direction for larger screens */
+      margin-top: 0; /* Remove margin for larger screens */
+  }
+
+  .input_button {
+      flex-direction: row; /* Restore original direction for larger screens */
+      margin-top: 0; /* Remove margin for larger screens */
+  }
+
+  #txtBusca {
+      width: auto;
+      margin-bottom: 0; /* Remove margin for larger screens */
+      margin-right: 10px; /* Add margin between input and button for larger screens */
+  }
+}

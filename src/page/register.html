@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--stylesheet -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login_resgister.css">
+    <!--stylesheet -->
+    <!-- script -->
+    <script defer type="module" src="../scripts/login_register/data.mjs"></script>
+    <script defer type="module" src="../scripts/login_register/register.mjs"></script>
+    <!-- script -->
+    <title>REGISTRAR</title>
+</head>
+<body>
+    <main>
+        <section class="register_section">
+            <form class="register_conteiner">
+                <h2>REGISTRE-SE</h2>
+                <div>
+                    <label class="inforegistrar" for="form">Nome:</label>
+                    <input required class="name_input" type="text" placeholder=" Nome De Usuario...">
+                </div>
+                <div>
+                    <label class="inforegistrar" for="form">Email:</label>
+                    <input required class="email_input" type="email" placeholder=" Digite Seu Email...">
+                </div>
+                <div>
+                    <label class="inforegistrar" for="form">Senha:</label>
+                    <input required class="password_input" type="password" placeholder=" Digite Sua Senha...">
+                </div>
+                <div>
+                    <label class="inforegistrar" for="form">Repita a senha:</label>
+                    <input required class="password_repeat_input" type="password" placeholder=" Repita Sua Senha...">
+                </div>
+                <button type="button" class="enter_register">REGISTRAR</button>
+                <p>Já tem uma conta? <a href="../../index.html">Login</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
