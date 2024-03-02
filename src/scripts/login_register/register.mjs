@@ -44,5 +44,5 @@ const addUser = (name, email, password) => {
 
     dataUser.push(newUser)
     localStorage.setItem("newUser", JSON.stringify(newUser))
-    window.location.href = "/index.html"
+    window.location.href = "https://jjuliocsar.github.io/pobreflix_api/"
 }
